@@ -1,3 +1,8 @@
+/*
+ * @Author : Pragmatic Coder
+ * @Repositorio : https://github.com/Zelechos/DynamicText
+ */
+
 'use strict'
 window.addEventListener('load',()=>{
     
