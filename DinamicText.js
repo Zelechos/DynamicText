@@ -10,7 +10,7 @@ window.addEventListener('load',()=>{
     const Vacio = document.querySelector("#DynamicText").innerHTML = " ";
 
     //console.error(Text);
-    const array = ['>' , '|' , '>', '|' ,'>' , '|' ,'>' , '|' ] ;
+    const array = ['_' , '|' , '_', '|' ,'_' , '|' ,'_' , '|' ] ;
 
     const palabra = Text.split("");
     //console.warn(palabra);
@@ -66,7 +66,6 @@ window.addEventListener('load',()=>{
     //console.log(list)
 
     //Obtenemos la Etiqueta donde insertaremos el texto dinamico
-    
     list.forEach(element=>{
         Etiqueta.appendChild(element);
     });
